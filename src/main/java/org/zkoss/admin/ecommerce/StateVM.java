@@ -35,6 +35,8 @@ public class StateVM {
 			state.setValue(proof * (i + 1));
 			state.setRatio(0.329);
 			states.add(state);
+			
+			System.out.println(state.getValue());
 		}
 	}
 
